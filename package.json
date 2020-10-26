@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eduardbudacu/webtech-profile.git"
+    "url": "git+https://github.com/CristinaTudor522/webtech-profile.git"
   },
   "author": "eudardbudacu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eduardbudacu/webtech-profile/issues"
+    "url": "https://github.com/CristinaTudor522/webtech-profile/issues"
   },
-  "homepage": "https://github.com/eduardbudacu/webtech-profile#readme",
+  "homepage": "https://github.com/CristinaTudor522/webtech-profile#readme",
   "dependencies": {
     "express": "^4.17.1"
   }

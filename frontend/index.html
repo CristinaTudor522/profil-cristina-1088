@@ -1,10 +1,63 @@
 <html>
     <head>
         <title>My Profile Page</title>
+        <style>
+
+        html, body{
+            height: 100%;
+        }
+
+        * {
+            box-sizing: border-box;
+        } 
+        .image{
+            background-image: url("imageBackground.jpg");
+            filter:blur(8px);
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .text{
+            background-color: black;
+            background-color: rgba(0,0,0,0.4);
+            color:white;
+            font-weight: bold;
+            border: 3px solid white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+        }
+        .information{
+            background-color: black;
+            background-color: rgb(0, 0, 0,0);
+            color:rgb(245, 245, 245);
+            font-weight: bold;
+            border: 2px solid white;
+            position: absolute;
+            top: 100px;
+            right:1000px;
+            z-index: 2;
+            padding: 20px;
+            text-align: center;
+            width: fit-content;
+        }
+        </style>
     </head>
     <body>
-        <h1>Eduard Budacu</h1>
-        <p>Wellcome to my profile page</p>
-        <a href="https://github.com/eduardbudacu/">GitHub</a>
+        <div class="image"></div>
+
+        <div class="text">
+            <h1>Wellcome to my profile page!</h1>
+        </div>
+        <div class="information">
+            <p>Click here to see more information about me</p>
+            <p><a href="information/information.html">Information</a></p>
+        </div>
     </body>
 </html>
